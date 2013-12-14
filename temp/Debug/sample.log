@@ -1,0 +1,27 @@
+﻿Build started 12/14/2013 2:01:26 PM.
+     1>Project "C:\Program Files (x86)\Camfrog\Camfrog Bot\dev\samples\sample-src\build\ms\sample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\joshua\Programming\rapidxml-1.13" /IC:\Users\joshua\Programming\boost_1_55_0\boost_1_55_0 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SAMPLE_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"../../temp/Debug\\" /Fd"../../temp/Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\bot_manager\Players.cpp
+         Players.cpp
+     1>c:\users\joshua\programming\rapidxml-1.13\rapidxml_utils.hpp(40): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+                 c:\users\joshua\programming\rapidxml-1.13\rapidxml_utils.hpp(28) : while compiling class template member function 'rapidxml::file<char>::file(const char *)'
+                 c:\program files (x86)\camfrog\camfrog bot\dev\samples\sample-src\bot_manager\players.cpp(25) : see reference to function template instantiation 'rapidxml::file<char>::file(const char *)' being compiled
+                 c:\program files (x86)\camfrog\camfrog bot\dev\samples\sample-src\bot_manager\players.cpp(25) : see reference to class template instantiation 'rapidxml::file<char>' being compiled
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Program Files (x86)\Camfrog\Camfrog Bot\dev\samples\sample-src\build\ms\../../!output\sample.dll) does not match the Linker's OutputFile property value (C:\Program Files (x86)\Camfrog\Camfrog Bot\dev\samples\sample-src\!output\versiond.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(sample) does not match the Linker's OutputFile property value (versiond). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../!output\versiond.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"../../exportd.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../!output\sample.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Program Files (x86)\Camfrog\Camfrog Bot\dev\samples\sample-src\!output\sample.lib" /MACHINE:X86 /SAFESEH /DLL ../../temp/Debug\sample.res
+         ../../temp/Debug\Game.obj
+         ../../temp/Debug\Players.obj
+         ../../temp/Debug\Questions.obj
+         ../../temp/Debug\bot_packet.obj
+         ../../temp/Debug\bot_manager.obj
+         ../../temp/Debug\bot_manager_item.obj
+         ../../temp/Debug\xml_interface.obj
+         ../../temp/Debug\qna.obj
+         sample.vcxproj -> C:\Program Files (x86)\Camfrog\Camfrog Bot\dev\samples\sample-src\build\ms\../../!output\sample.dll
+     1>Done Building Project "C:\Program Files (x86)\Camfrog\Camfrog Bot\dev\samples\sample-src\build\ms\sample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.50
